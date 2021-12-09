@@ -30,4 +30,4 @@ jobs:
         with:
           context: ./serviceA
           push: true
-          tags: wjayesh/reactor-svcA:latest
+          tags: wjayesh/reactor-svca:latest
