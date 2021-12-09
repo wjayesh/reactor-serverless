@@ -35,7 +35,7 @@ spec:
         app: hello-world-2
     spec:
       containers:
-      - name: serviceA
+      - name: service-a
         image: wjayesh/reactor-svca:latest
         ports:
         - containerPort: 8080

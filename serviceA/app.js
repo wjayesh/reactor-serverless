@@ -3,7 +3,7 @@ var express = require('express');
 
 var app = express();
 // define port to start server on
-const port = 5000;
+const port = 80;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
