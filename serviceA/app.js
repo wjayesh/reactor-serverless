@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // handler for '/' path
 app.get('/', function(req, res) {
-  res.status(200).send();
+  res.status(200).send('Hello World from Service A');
 })
 
 // health check at /ping
